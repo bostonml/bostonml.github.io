@@ -20,16 +20,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-66831491-1', 'auto');
-        ga('send', 'pageview');
-    </script>
 </head>
 
 <body id="page-top" class="index">
@@ -51,13 +41,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="index.html#sponsorship">Sponsors</a>
+                        <a href="index.html#speakers">Speakers</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="index.html#sponsors">Sponsors</a>
                     </li>
                     <li class="page-scroll">
                         <a href="index.html#schedule">Schedule</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="index.html#codeofconduct">Code of Conduct</a>
                     </li>
                 </ul>
             </div>
@@ -68,7 +58,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img src="http://i.imgur.com/ytCEr8F.jpg" height="260"></image>
+                    <img src="http://i.imgur.com/ytCEr8F.jpg" height="260"></img>
                     <div class="intro-text">
                         <span class="name">Boston ML Forum</span>
                         <span class="skills">Saturday March 5th, 2015</span>
@@ -84,21 +74,45 @@
         </div>
     </header>
 
-    <section id="source">
+    <section id="speakers" class="text-center">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Support Open Source Projects</h2>
-                    <hr class="star-primary">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <p>100% of the proceeds from the event will go towards supporting future developement of the projects you know and love
+        <div class="row">
+            <h2>Speakers</h2>
+            <hr class="star-primary">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div >
+                    <div class="col-xs-3 col-sm-4 ">
+                        <img class="img-thumbnail" width="100%" height="210px" src="http://i.imgur.com/GkYvmEV.jpg">
+                            Alec Radford<br>
+                            indico
+                    </div>
+                    <div class="col-xs-3 col-sm-4 ">
+                        <img class="img-thumbnail" width="100%" height="210px" src="http://i.imgur.com/GmVr0Gk.png">
+                            Clay Kim<br>
+                            Localytics
+                    </div>
+                    <div class="col-xs-3 col-sm-4 ">
+                        <img class="img-thumbnail" width="100%" height="210px" src="http://i.imgur.com/2A7ZqGW.jpg">
+                            Michael Els<br>
+                            Meta.sc
+                    </div>
+                    <div class="col-xs-3 col-sm-4 ">
+                        <img class="img-thumbnail" width="100%" height="210px" src="http://i.imgur.com/A0NBhQc.jpg">
+                            Joeseph Cauteruccio<br>
+                            DigitasLBi
+                    </div>
+                    <div class="col-xs-3 col-sm-4 ">
+                        <img class="img-thumbnail" width="100%" height="210px" src="http://i.imgur.com/wdBcEN8.jpg">
+                            Carolyn Saund<br>
+                            Jibo
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </section>
 
-    <section class="success" id="sponsorship">
+    <section class="success" id="sponsors">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -127,35 +141,6 @@
         </div>
     </section>
 
-    <section class="success" id="codeofconduct">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Code of Conduct</h2>
-                    <hr class="star-light">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <p>The Boston Machine Learning Forum is intended for collaboration within the statistical learning community. Attendees are expected to behave in accordance with their employer's policies on appropriate workplace behavior. The conference is dedicated to providing a harassment-free experience for everyone, regardless of gender, age, sexual orientation, appearance, race, or religion. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, and online media.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Speakers</h2>
-                    <hr class="star-primary">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <p>TBA
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
@@ -179,12 +164,16 @@
         </div>
     </footer>
 
-    <!-- Scroll to Top -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
+    <!-- Google Analytics -->    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-66831491-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
